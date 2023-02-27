@@ -21,6 +21,8 @@ if game.PlaceId == 537413528 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/d4rrrk/roblox-scripts/main/BABFT.lua'))()
 elseif game.PlaceId == 10138901829 or game.PlaceId == 10371908957 then
     loadstring(game:HttpGet('https://raw.githubusercontent.com/d4rrrk/roblox-scripts/main/DeepwokenDev.lua'))()
+elseif game.PlaceId == 8328351891 then
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/d4rrrk/roblox-scripts/main/MegaMansionTycoon.lua'))()
 else
     local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
     OrionLib:MakeNotification({
